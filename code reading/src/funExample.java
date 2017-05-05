@@ -5,54 +5,54 @@ public class funExample {
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 111)
-				str = (char) 111 + str;
+				str = (char)i + str;
 
 		}
 		for (int i = 0; i < 256; i++) {
 			if (i == 108) {
-				str = (char) 108 + str;
-				str = (char) 108 + str;
+				str = (char) i + str;
+				str = (char) i + str;
 			}
 		}
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 101)
-				str = (char) 101 + str;
+				str = (char) i + str;
 
 		}
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 72)
-				str = (char) 72 + str;
+				str = (char) i + str;
 		}
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 87)
-				str += (char) 87;
+				str += (char) i;
 
 		}
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 111)
-				str += (char) 111;
+				str += (char) i;
 
 		}
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 114)
-				str += (char) 114;
+				str += (char) i;
 
 		}
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 108)
-				str += (char) 108;
+				str += (char) i;
 
 		}
 		for (int i = 0; i < 256; i++) {
 
 			if (i == 100)
-				str += (char) 100;
+				str += (char) i;
 
 		}
 		System.out.println(str);
