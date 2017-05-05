@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+//medium
+public class Example3 {
+	public static int divideTwoThings(Object o, Object y){
+			return (int)o + (int)y;
+
+	}
+	
+	public static void main(String args[]){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(0);
+		list.add(0);
+		divideTwoThings(o, y);
+	}
+}

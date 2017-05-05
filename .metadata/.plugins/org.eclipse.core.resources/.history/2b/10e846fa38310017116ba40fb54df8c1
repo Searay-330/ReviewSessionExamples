@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Example1 {
+	public static double computeAvg(ArrayList<Integer> list){
+		double total = 0.0;
+		for(int i = 0; i < list.size(); ++i){
+			total += list.get(i);
+		}
+
+		return total/list.size();
+	}
+	
+	public static void main(String[] args){
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		computeAvg(list);
+	}
+
+}

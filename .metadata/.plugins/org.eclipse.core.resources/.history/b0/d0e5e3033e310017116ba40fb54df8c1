@@ -1,0 +1,6 @@
+//medium
+public class Example3 {
+	public static void addTwoThings(Object o, Object y){
+		
+	}
+}
