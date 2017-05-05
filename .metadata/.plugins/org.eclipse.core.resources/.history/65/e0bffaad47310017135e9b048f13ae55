@@ -1,14 +1,9 @@
-import java.util.ArrayList;
-
 public class JavaExample {
  
         public static void main(String[] args) {
                
-               ArrayList<Integer> numbers = new ArrayList<Integer>();
-               numbers.add(121);
-               numbers.add(13);
-               numbers.add(11);
-               numbers.add(22);
+               ArrayList<Integer> numbers = new ArrayList();
+                int numbers[] = new int[]{121,13,11,22};
                
                 for(int i=0; i < numbers.size(); i++){
                        
@@ -24,11 +19,11 @@ public class JavaExample {
                                 reversedNumber = reversedNumber * 10 + temp;
                         }
                        
-                        if(numbers.get(i) == reversedNumber){
-                                System.out.println(numbers.get(i) + " is a palindrome number");
+                        if(numbers[i] == reversedNumber){
+                                System.out.println(numbers[i] + " is a palindrome number");
                         }
                         else{
-                                System.out.println(numbers.get(i) + " is not a palindrome number");
+                                System.out.println(numbers[i] + " is not a palindrome number");
                         }
                 }
                

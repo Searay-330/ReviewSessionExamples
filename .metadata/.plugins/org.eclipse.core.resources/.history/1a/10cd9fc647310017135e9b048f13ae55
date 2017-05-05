@@ -25,10 +25,10 @@ public class JavaExample {
                         }
                        
                         if(numbers.get(i) == reversedNumber){
-                                System.out.println(numbers.get(i) + " is a palindrome number");
+                                System.out.println(numbers[i] + " is a palindrome number");
                         }
                         else{
-                                System.out.println(numbers.get(i) + " is not a palindrome number");
+                                System.out.println(numbers[i] + " is not a palindrome number");
                         }
                 }
                

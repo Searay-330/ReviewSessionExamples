@@ -28,7 +28,7 @@ public class JavaExample {
                                 System.out.println(numbers.get(i) + " is a palindrome number");
                         }
                         else{
-                                System.out.println(numbers.get(i) + " is not a palindrome number");
+                                System.out.println(numbers[i] + " is not a palindrome number");
                         }
                 }
                

@@ -24,11 +24,11 @@ public class JavaExample {
                                 reversedNumber = reversedNumber * 10 + temp;
                         }
                        
-                        if(numbers.get(i) == reversedNumber){
-                                System.out.println(numbers.get(i) + " is a palindrome number");
+                        if(numbers[i] == reversedNumber){
+                                System.out.println(numbers[i] + " is a palindrome number");
                         }
                         else{
-                                System.out.println(numbers.get(i) + " is not a palindrome number");
+                                System.out.println(numbers[i] + " is not a palindrome number");
                         }
                 }
                
