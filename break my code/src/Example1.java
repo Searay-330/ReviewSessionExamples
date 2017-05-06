@@ -11,8 +11,10 @@ public class Example1 {
 		return (total/list.size());
 	}
 	
+	
+	
 	public static void main(String args[]){
-		computeFloorAvg(new ArrayList<>());
+		computeFloorAvg(new ArrayList<Integer>());
 	}
 
 

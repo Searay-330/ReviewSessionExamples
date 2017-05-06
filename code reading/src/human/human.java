@@ -1,8 +1,8 @@
 package human;
 
 public class human implements specs {
-	int _height, _weight, _age = 0;
-	String _eyecolor, _name;
+	 private int _height, _weight, _age = 0;
+	 private String _eyecolor, _name;
 
 	public human(int height, int weight, int age, String eyecolor, String name) {
 		_height = height;

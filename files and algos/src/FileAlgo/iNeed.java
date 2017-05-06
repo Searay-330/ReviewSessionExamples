@@ -15,7 +15,7 @@ public class iNeed {
 		return result;
 	}
 
-	public static void writeMaxInt(int i, String s) throws IOException {
+	public static void writeMinInt(int i, String s) throws IOException {
 		String result = i + "";
 		Files.write(Paths.get(s), result.getBytes());
 

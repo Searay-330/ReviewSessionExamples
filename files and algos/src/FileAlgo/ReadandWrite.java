@@ -19,7 +19,7 @@ public class ReadandWrite {
 				min = Converted.get(i);
 			}
 		}
-		iNeed.writeMaxInt(min, "src/FileAlgo/output.txt");
+		iNeed.writeMinInt(min, "src/FileAlgo/output.txt");
 	}
 
 }

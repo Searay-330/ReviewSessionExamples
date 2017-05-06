@@ -25,11 +25,7 @@ public class Example2 {
 	}
 	
 	public static int addNums(String one, String two){
-		return Integer.parseInt(one) + Integer.parseInt(two);
-	}
-	
-	public static void Zero(int useless){
-		return;
+		return (int)(Double.parseDouble(one) + Double.parseDouble(two));
 	}
 	
 	public static int summation(int bound){
@@ -41,7 +37,9 @@ public class Example2 {
 	}
 	
 	public static void main(String args[]){
-	
+		addNums("50","0.0");
+		double f = 0.0/0.0;
+		System.out.println(f);
 	}
 
 	

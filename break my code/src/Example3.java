@@ -13,7 +13,8 @@ public class Example3 {
 	}
 	
 	public static void main(String args[]){
-
+//		divideTwoThings(Integer.MAX_VALUE, Integer.MAX_VALUE);
+//		System.out.println(Double.POSITIVE_INFINITY);
 	}
 
 	
